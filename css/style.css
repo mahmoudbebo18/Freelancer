@@ -30,10 +30,16 @@
     margin-bottom: 24px; }
   .navbar .container {
     flex-direction: column; }
+    @media (max-width: 991px) {
+      .navbar .container {
+        flex-direction: row; } }
   .navbar .right_part {
     position: absolute;
     right: 0;
     top: 0; }
+    @media (max-width: 991px) {
+      .navbar .right_part {
+        position: relative; } }
     .navbar .right_part a {
       color: #000;
       text-decoration: none !important;
@@ -46,6 +52,9 @@
     position: absolute;
     left: 0;
     top: 0; }
+    @media (max-width: 991px) {
+      .navbar .left-part {
+        position: relative; } }
     .navbar .left-part .sign span {
       cursor: pointer; }
     .navbar .left-part .currency {

@@ -35,11 +35,17 @@
   }
   .container {
     flex-direction: column;
+    @media(max-width:991px){
+      flex-direction: row;
+    }
   }
   .right_part {
     position: absolute;
     right: 0;
     top: 0;
+    @media(max-width:991px){
+      position: relative;
+    }
     a {
       color: #000;
       text-decoration: none !important;
@@ -55,8 +61,12 @@
   }
   .left-part {
     position: absolute;
+
     left: 0;
     top: 0;
+    @media(max-width:991px){
+      position: relative;
+    }
     .sign{
       span{
         cursor: pointer;
