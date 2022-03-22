@@ -339,6 +339,9 @@ footer {
   border-bottom: 2px solid #c0c0c0;
   .col-lg-3 {
     border-right: 2px solid #c0c0c0;
+    @media(max-width:991px){
+      border: none;
+    }
     .info_links {
       margin-top: 24px;
       a {
