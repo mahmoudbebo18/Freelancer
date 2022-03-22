@@ -357,6 +357,9 @@ footer {
   }
   .delivery_content {
     padding: 24px 50px;
+    @media(max-width:991px){
+     padding: 24px 0 ;
+    }
     h4 {
       margin-bottom: 24px;
     }

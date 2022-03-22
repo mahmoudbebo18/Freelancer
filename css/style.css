@@ -263,6 +263,9 @@ footer {
       margin-bottom: 24px; }
   .information .delivery_content {
     padding: 24px 50px; }
+    @media (max-width: 991px) {
+      .information .delivery_content {
+        padding: 24px 0; } }
     .information .delivery_content h4 {
       margin-bottom: 24px; }
     .information .delivery_content p {
