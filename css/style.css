@@ -26,8 +26,14 @@
   margin-bottom: 24px;
   min-height: 150px;
   /*mega menus */ }
+  @media (max-width: 991px) {
+    .navbar {
+      min-height: 80px; } }
   .navbar .navbar-brand {
     margin-bottom: 24px; }
+    @media (max-width: 991px) {
+      .navbar .navbar-brand {
+        margin: 0; } }
   .navbar .container {
     flex-direction: column; }
     @media (max-width: 991px) {

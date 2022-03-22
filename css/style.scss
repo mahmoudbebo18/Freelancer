@@ -30,8 +30,14 @@
   border-bottom: 2px solid #c0c0c0;
   margin-bottom: 24px;
   min-height: 150px;
+  @media(max-width:991px){
+    min-height: 80px;
+  }
   .navbar-brand {
     margin-bottom: 24px;
+    @media(max-width:991px){
+      margin: 0;
+    }
   }
   .container {
     flex-direction: column;
