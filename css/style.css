@@ -408,4 +408,7 @@ footer {
   -webkit-transform: scale(1);
   transform: scale(1); }
 
+.gray_bg .container {
+  background-image: linear-gradient(to bottom, #fff 80%, #f9f9f9); }
+
 /*# sourceMappingURL=style.css.map */

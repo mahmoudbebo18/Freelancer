@@ -550,3 +550,9 @@ footer {
     transform: scale(1);
 }
 }
+
+.gray_bg{
+  .container{
+    background-image: linear-gradient(to bottom, #fff 80%, #f9f9f9)
+  }
+}
