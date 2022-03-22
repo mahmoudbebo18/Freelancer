@@ -84,6 +84,10 @@
 
 .menues {
   padding-bottom: 24px; }
+  .menues .designer_menu .col-lg-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; }
   .menues .designer_menu h5 {
     margin-bottom: 16px; }
   .menues .designer_menu a {
@@ -123,7 +127,6 @@ main {
 .brand {
   padding: 16px 0; }
   .brand .container {
-    background-image: linear-gradient(to bottom, #ffffff 95%, #f7f7f7);
     padding: 0; }
   .brand img {
     height: 350px;
@@ -360,5 +363,49 @@ footer {
         .modal.login .modal-dialog .modal-content .modal-body .body_content form .join_now a {
           color: #888;
           text-decoration: underline; }
+
+.subscribe [type="radio"]:checked,
+.subscribe [type="radio"]:not(:checked) {
+  position: absolute;
+  left: -9999px; }
+.subscribe [type="radio"]:checked + label,
+.subscribe [type="radio"]:not(:checked) + label {
+  position: relative;
+  padding-left: 28px;
+  cursor: pointer;
+  line-height: 20px;
+  display: inline-block;
+  color: #fff; }
+.subscribe [type="radio"]:checked + label:before,
+.subscribe [type="radio"]:not(:checked) + label:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 18px;
+  height: 18px;
+  border: 1px solid #ddd;
+  border-radius: 100%;
+  background: #fff; }
+.subscribe [type="radio"]:checked + label:after,
+.subscribe [type="radio"]:not(:checked) + label:after {
+  content: '';
+  width: 12px;
+  height: 12px;
+  background: #121212;
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  border-radius: 100%;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease; }
+.subscribe [type="radio"]:not(:checked) + label:after {
+  opacity: 0;
+  -webkit-transform: scale(0);
+  transform: scale(0); }
+.subscribe [type="radio"]:checked + label:after {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  transform: scale(1); }
 
 /*# sourceMappingURL=style.css.map */
