@@ -287,7 +287,8 @@ footer {
   .acc_setting .account_set_links {
     border: 1px solid #ccc;
     margin-bottom: 16px;
-    margin-top: 24px; }
+    margin-top: 24px;
+    width: 80%; }
     .acc_setting .account_set_links a {
       border-bottom: 1px solid #ccc;
       display: block;
@@ -298,7 +299,8 @@ footer {
   .acc_setting .sign_out {
     background-color: #000;
     text-align: center;
-    padding: 8px 12px; }
+    padding: 8px 12px;
+    width: 80%; }
     .acc_setting .sign_out a {
       color: #fff;
       text-decoration: none; }
@@ -549,6 +551,11 @@ footer {
       margin-left: 8px; }
 
 /*a__z page */
+.a_z_row .col-lg-4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
+
 .search_prod {
   margin-top: 24px; }
   .search_prod form {
@@ -580,7 +587,8 @@ footer {
   .filter_options .check_option input {
     margin-right: 4px; }
   .filter_options .check_option span {
-    color: #888; }
+    color: #888;
+    font-size: 13px; }
 
 .string_filter {
   margin-top: 25px;
@@ -596,11 +604,10 @@ footer {
 
 .designer_num {
   color: #888;
-  font-size: 15px;
-  margin-bottom: 24px; }
+  font-size: 15px; }
 
 .num_links {
-  margin-bottom: 36px;
+  margin-bottom: 8px;
   padding-left: 28px; }
   @media (max-width: 991px) {
     .num_links {
